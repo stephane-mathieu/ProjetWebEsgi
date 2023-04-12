@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,700;1,700&display=swap');
+
+.error {
+    font-family: 'Ubuntu';
+    font-style:italic;
+    padding-bottom: 2.5vh;
+    color: rgb(255, 136, 0);
+    text-align: center;
+}

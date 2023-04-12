@@ -1,0 +1,180 @@
+header {
+    margin: 0;
+    padding: 0;
+}
+
+.header-blue {
+    background-color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+}
+
+header img {
+    width: 57%;
+    padding-right: 6rem;
+}
+.container a{
+    width: 30%;
+    height: 30%;
+}
+
+.nav-item {
+    padding-right: 7.5rem;
+    color: black;
+}
+
+.nosproduits {
+    color: black;
+    text-decoration: none;
+    border: 1px solid rgb(63, 63, 63);
+    padding: 2px 5px 2px 5px;
+    border-radius: 10px;
+}
+
+@media (min-width: 900px) {
+    .nosproduits {
+        margin-right: 10rem;
+        margin-left: 1rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .nosproduits {
+        margin-bottom: 100px;
+    }
+}
+
+.nosproduits:hover {
+    color: rgb(65, 65, 65);
+    text-decoration: none;
+    background-color: rgb(238, 238, 238);
+}
+
+@media(min-width: 900px) {
+    .panier {
+        margin-right: -6rem;
+        padding-left: 3rem;
+    }
+}
+
+.header-blue .navbar .navbar-collapse {
+    border-top: 1px solid rgb(0, 0, 0);
+    margin-top: .5rem;
+}
+
+@media (min-width:768px) {
+    .header-blue .navbar .navbar-collapse {
+        border-color: transparent;
+        margin: 0;
+    }
+}
+
+.header-blue .navbar .navbar-collapse span .login {
+    color: #000000;
+    margin-right: 2rem;
+    text-decoration: none;
+}
+
+.header-blue .navbar .navbar-collapse span .login:hover {
+    color: rgb(0, 0, 0);
+}
+
+@media (min-width: 768px) {
+    .header-blue .navbar-nav .nav-link {
+        padding-left: .7rem;
+        padding-right: .7rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .header-blue .navbar-nav .nav-link {
+        padding-left: 1.2rem;
+        padding-right: 1.2rem;
+    }
+}
+
+.header-blue .action-button:hover {
+    color: rgb(0, 0, 0);
+}
+
+.header-blue .navbar .form-inline label {
+    color: #000000;
+}
+
+.header-blue .navbar .form-inline .search-field {
+    display: inline-block;
+    width: 80%;
+    background: none;
+    border: none;
+    border-bottom: 1px solid transparent;
+    border-radius: 0;
+    color: rgb(0, 0, 0);
+    box-shadow: none;
+    transition: border-bottom-color 0.3s;
+}
+
+.header-blue .navbar .form-inline .search-field:focus {
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+span.navbar-toggler-icon {
+    background: black;
+    border-radius: 5px;
+}
+
+@media (min-width: 768px) {
+    .secondnav {
+        background-color: black;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        padding-top: 4vh;
+        padding-bottom: 4vh;
+    }
+    #secondnavli {
+        text-decoration: none;
+        color: white;
+        margin-right: 7.5rem;
+        margin-left: 7.5rem;
+    }
+    header select {
+        border: 3px black;
+        border-radius: 10px;
+        appearance: none;
+        color: white;
+        background: black;
+        text-align: center;
+        margin: 0rem 3.5rem 0rem 3.5rem;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .secondnav {
+        background-color: black;
+        padding-top: 4vh;
+        padding-bottom: 4vh;
+        text-align: center;
+    }
+    #secondnavli {
+        text-decoration: none;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        padding-top: 2vh;
+    }
+    header select {
+        border: 3px black;
+        border-radius: 10px;
+        appearance: none;
+        color: white;
+        background: black;
+        text-align: center;
+        margin-left: -15px;
+        margin-top: 2vh;
+    }
+}
+
+.searchbar {
+    padding-left: 20%;
+}

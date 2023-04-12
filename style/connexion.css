@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,700;1,700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    text-align: center;
+}
+
+.bigcontainer {
+    margin: 0;
+    padding: 0;
+    width: 99%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.formscontainer {
+    display: flexbox;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: -10vh;
+    width: 33%;
+}
+
+main h2 {
+    font-family: 'Ubuntu';
+    font-style: italic;
+    padding-top: 7vh;
+    padding-bottom: 4vh;
+}
+
+main form {
+    border: 1px solid rgb(241, 241, 241);
+    background-color:rgb(250, 250, 250);
+    border-radius: 10px;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    margin-bottom: 3vh;
+}
+
+input[type=text], input[type=password]{
+    width: 70%;
+}
+
+label {
+    padding-bottom: 1.5vh;
+}
+
+.label {
+    padding-top: 3vh;
+}
+
+main button {
+    background: #EB850F;
+    color: white;
+    font-family: 'Ubuntu';
+    font-size: 20px;
+    border: none;
+    padding: 1.5vh 7vw 1.5vh 7vw;
+    border-radius: 20px;
+    box-shadow: 0 5px 3px rgb(179, 179, 179);
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+main button:hover {
+    transform: scale(1.03);
+}
+main h6 {
+    color: red;
+    font-family: 'Ubuntu';
+    margin-top: 2vh;
+}
+
+main label {
+    font-family: 'Ubuntu';
+}
+
+main img {
+    max-width: 33%;
+}
+
+@media only screen and (max-width: 600px){
+    main img {
+        display: none;
+    }
+}

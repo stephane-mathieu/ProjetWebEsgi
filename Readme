@@ -1,0 +1,13 @@
+Projet réaliser par stéphane mathieu esgi2
+
+Ce projet web a été développé en utilisant le design pattern MVC, qui est une approche de conception qui permet de séparer les données, la logique de traitement et l'interface utilisateur. Cela facilite la maintenance et l'évolutivité du projet en permettant une meilleure organisation du code.
+
+Le projet utilise également Composer, un gestionnaire de dépendances PHP qui permet d'installer et de gérer les bibliothèques tierces nécessaires au projet de manière efficace et sécurisée.
+
+En outre, le projet utilise un autoloader, qui est un outil permettant de charger automatiquement les classes PHP nécessaires au projet. Cela évite d'avoir à charger manuellement chaque classe dans le code, ce qui facilite la maintenance et l'évolutivité du projet.
+
+Enfin, le projet utilise Alto Router, qui est une bibliothèque de routage PHP flexible et légère. Elle permet de gérer facilement les URL du projet et de diriger les requêtes vers les bonnes actions du contrôleur.
+
+Pour exécuter le projet, assurez-vous d'avoir PHP installé sur votre machine et d'avoir installé les dépendances en exécutant la commande "composer install" dans le répertoire du projet. Ensuite, vous pouvez accéder au projet en ouvrant le fichier index.php dans votre navigateur.
+
+N'oubliez pas de consulter la documentation d'Alto Router pour en savoir plus sur les fonctionnalités de routage disponibles et comment les utiliser dans votre projet.
